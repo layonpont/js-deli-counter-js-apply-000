@@ -17,7 +17,7 @@
  }
 
  function currentLine(katzDeliLine){
-   if(katzDeliLine === 0 ){
+   if(katzDeliLine == 0 ){
      return "The line is currently empty.";
    }
    var customerAndNumber = [];
