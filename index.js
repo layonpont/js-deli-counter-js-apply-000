@@ -24,5 +24,5 @@
    for (var i = 0; i < katzDeliLine.length; i++){
      customerAndNumber.push(i + 1 + ". " + katzDeliLine[i]);
    }
-   return "The line is currently empty. " + customerAndNumber.join(", ");
+   return "The line is currently empty." + customerAndNumber.join(", ");
  }
